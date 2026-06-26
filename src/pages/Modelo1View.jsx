@@ -91,7 +91,7 @@ function PasswordGate({ onUnlock }) {
       }}>
         <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🔒</div>
         <h1 style={{ fontSize: '1.3rem', fontWeight: 800, color: '#1a1917', marginBottom: 8 }}>
-          Validación de acceso
+          Contenido confidencial
         </h1>
         <p style={{ fontSize: '0.85rem', color: '#888', marginBottom: '1.75rem', lineHeight: 1.5 }}>
           Ingresá el código de acceso que te compartió tu contacto en Andreani.
@@ -139,14 +139,14 @@ function FlowList({ emails, selectedKey, onSelect }) {
         return (
           <div key={section.key}>
             <div style={{
-              padding: '10px 16px 4px',
-              fontSize: '0.68rem', fontWeight: 800, color: meta.color,
-              textTransform: 'uppercase', letterSpacing: '0.08em',
-              display: 'flex', alignItems: 'center', gap: 6,
+              padding: '12px 16px 6px',
+              fontSize: '0.85rem', fontWeight: 800, color: meta.color,
+              textTransform: 'uppercase', letterSpacing: '0.06em',
+              display: 'flex', alignItems: 'center', gap: 7,
               borderTop: si > 0 ? '1px solid #f0ede8' : 'none',
               marginTop: si > 0 ? 4 : 0
             }}>
-              <span>{section.emoji}</span><span>{section.label}</span>
+              <span style={{ fontSize: '1rem' }}>{section.emoji}</span><span>{section.label}</span>
             </div>
             {section.nodes.map(node => {
               const nodeMeta = ETAPA_META[node.etapa] || ETAPA_META.otro
