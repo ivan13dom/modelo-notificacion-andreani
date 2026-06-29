@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Modelo1View from './pages/Modelo1View'
+import WhatsApp7View from './pages/WhatsApp7View'
 
 function NotFound() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
     <Routes>
       <Route path="/modelo-1" element={<Modelo1View />} />
       <Route path="*" element={<NotFound />} />
+      <Route path="/whatsapp-7" element={<WhatsApp7View />} />
     </Routes>
   )
 }
