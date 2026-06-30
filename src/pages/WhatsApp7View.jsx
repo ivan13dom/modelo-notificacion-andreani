@@ -160,7 +160,7 @@ function PasswordGate({ onUnlock }) {
       }}>
         <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🔒</div>
         <h1 style={{ fontSize: '1.3rem', fontWeight: 800, color: '#1a1917', marginBottom: 8 }}>
-          Contenido confidencial
+          Validación de ingreso
         </h1>
         <p style={{ fontSize: '0.85rem', color: '#888', marginBottom: '1.75rem', lineHeight: 1.5 }}>
           Ingresá el código de acceso que te compartió tu contacto en Andreani.
