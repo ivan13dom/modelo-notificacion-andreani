@@ -405,7 +405,7 @@ function PreviewContent() {
       </div>
 
       <div style={{ textAlign: 'center', padding: '2rem', fontSize: '0.72rem', color: '#bbb' }}>
-        Andreani · Notificaciones WhatsApp · {PRODUCTO.nombre} · Contenido confidencial
+        Andreani · Notificaciones WhatsApp · {PRODUCTO.nombre}
       </div>
     </div>
   )
