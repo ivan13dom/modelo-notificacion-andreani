@@ -25,7 +25,7 @@ const PRODUCTO = {
     },
     {
       "titulo": "Estimación de entrega",
-      "texto": "¡Hola Sofía! 👋🏼🤖\nTu envio 3100000345678 está listo para entregarse. Durante la tarde para que lo recibas.\n \n• Presentá tu DNI original actualizado.\n• Es posible que debas firmar la entrega.\n \nObtené más información… 👇🏼",
+      "texto": "¡Hola Sofía! 👋🏼🤖\nTu envio 3100000345678 está listo para entregarse durante la tarde para que lo recibas.\n \n• Presentá tu DNI original actualizado.\n• Es posible que debas firmar la entrega.\n \nObtené más información… 👇🏼",
       "regla": "Evento=ERA - PosicionHDR>=0 - CumplimientoTTOrdenHDR>=50 - EraRango!=null - SucursalCodigo contiene (...) - FechaVisitaHoy=False - MotivoUltimaVisitaNo-ContieneEntregado -",
       "html": "<div class=\"whatsapp-message-content\"><span>¡Hola /</span><strong>DestinatarioNombreSolo</strong><span>/! 👋🏼🤖</span><br><span>Tu envio /</span><strong>NumeroDeEnvio</strong><span>/ está listo para entregarse. /</span><strong>EstimacionDescripcion</strong><span>/ para que lo recibas.</span><br><span> </span><br><span>• Presentá tu DNI original actualizado.</span><br><span>• Es posible que debas firmar la entrega.</span><br><span> </span><br><span>Obtené más información… 👇🏼</span></div>"
     },
